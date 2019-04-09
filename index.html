@@ -10,11 +10,116 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
     <body>
+        <!--Collapsable navbar with page logo-->
         <header>
-            <nav>
-                
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo-dark.png" class="logo-dark" alt="Dark version of the logo.">
+                    <img src="img/logo-light.png" class="logo-light" alt="Light version of the logo.">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Service 1</a>
+                                <a class="dropdown-item" href="#">Service 3</a>
+                                <!--<div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>-->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
+        <!--Carousel section-->
+        <section class="craousel-section">
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/header.jpg" class="d-block w-100" alt="Picture of cup of coffee, a notebook, a pen, and some clips over a table.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/header.jpg" class="d-block w-100" alt="Picture of cup of coffee, a notebook, a pen, and some clips over a table.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/header.jpg" class="d-block w-100" alt="Picture of cup of coffee, a notebook, a pen, and some clips over a table.">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container cards-section">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container about-us">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>
+                        We Are 
+                        <br>
+                        Web Design Heroes
+                    </h3>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica. Dolor in hendrerit in vulputate velit esse molestie consequat. Mirum est notare quam littera gothica.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        Mirum est notare quam littera gothica. Dolor in hendrerit in vulputate velit esse molestie consequat. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Dolor in hendrerit in vulputate velit esse molestie consequat.
+                    </p>
+                </div>
+            </div>     
+        </section>
 
 
 		<script src="js/jquery-3.3.1.min.js"></script>
