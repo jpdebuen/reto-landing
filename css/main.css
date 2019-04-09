@@ -1,0 +1,9 @@
+@media screen and (min-width: 520px) {
+    *, *::before, *::after{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: inherit;
+    }
+    html{
+        box-sizing: border-box;
+    }
