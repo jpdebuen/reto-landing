@@ -10,7 +10,9 @@ html{
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .navbar a{
     margin: 0px;
@@ -25,10 +27,36 @@ img.logo-dark{
     max-width: 300px;
 }
 
-.carousel{
-    height: 75vh;
-}
 .about-us div.row div.col-sm-4 h3{
     color: red;
     text-align: right;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+    height: 65vh;
+}
+img.img-glasses {
+    border: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+div.service-list-item{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+h3{
+    font-size: 25px !important;
+    line-height: 1.4;
+}
+
+.small-text {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
 }
