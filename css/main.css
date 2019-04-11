@@ -8,6 +8,26 @@ html{
     box-sizing: border-box;
 }
 
+.section-bottom-margin{
+    margin-bottom: 60px;
+}
+
+.section-title{
+    font-family: serif;
+    color: #002633;
+    font-size: 50px !important;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.section-title-underline{
+    height: 1px;
+    width: 30vw;
+    background-color: red;
+    margin-bottom: 40px;
+}
+
+/* NAVBAR */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -27,15 +47,35 @@ img.logo-dark{
     max-width: 300px;
 }
 
+.navbar-toggler{
+    border: none;
+}
+
+.menu-item{
+    width: 80vw;
+    font-size: 1.3em;
+    padding: 0.9em 1em;
+    border-top: 1px solid lightgray;
+}
+
+.menu-item a{
+    text-align: center;
+}
+
+/* ABOUT US */
 .about-us div.row div.col-sm-4 h3{
     color: red;
     text-align: right;
 }
 
+
+/* CAROUSEL */
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block;
     height: 65vh;
 }
+
+/* SERVICES */
 img.img-glasses {
     border: 0;
     display: block;
