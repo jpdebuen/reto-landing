@@ -109,6 +109,10 @@ img.logo-dark{
     margin-bottom: 24px;
 }
 
+.card-body h4{
+    font: serif;
+}
+
 .card-icon{
     margin-top: 24px;
     margin-bottom: 40px;
