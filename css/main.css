@@ -27,6 +27,10 @@ html{
     margin-bottom: 40px;
 }
 
+.btn{
+    border-radius: 0;
+}
+
 /* NAVBAR */
 .navbar{
     display: flex;
@@ -73,6 +77,41 @@ img.logo-dark{
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block;
     height: 65vh;
+}
+
+.btn-get-started{
+    height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.link-get-started{
+    color: white;
+}
+
+.slider-button{
+    border-radius: 0 !important;
+}
+
+/* CARDS */
+.card{
+    border-radius: 0 !important;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.card-body{
+    height: 60vh;
+}
+.card-body button.btn{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.card-icon{
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 
 /* SERVICES */
